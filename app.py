@@ -1,7 +1,5 @@
 import streamlit as st
-import numpy as np
 import pickle
-from sklearn.naive_bayes import GaussianNB   
 
 
 with open("destree_model.sav", "rb") as f:
