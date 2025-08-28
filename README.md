@@ -36,15 +36,6 @@ git clone https://github.com/kavinkumartk/Navie-bayes
 
 ---
 
-## 📸 Screenshots
-
-### Application Interface
-![App Screenshot](1917868e-9320-4a4d-854b-a0e509676e9c.png)
-
-### Heatmap Visualization
-![Heatmap](4ffa87db-0bf6-4cba-b1f6-ca3b9483a486.png)
-
-
 ## 👨‍💻 Author
 **Kavin Kumar T**
 GitHub:  https://github.com/kavinkumartk
