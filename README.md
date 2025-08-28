@@ -32,25 +32,26 @@ We use a processed dataset (`spam.csv` → `df_features.csv`) with the following
 
 Clone the repository:
 
-```bash
-git clone https://github.com/your-username/sms-spam-classifier.git
-cd sms-spam-classifier
+git clone https://github.com/kavinkumartk/Navie-bayes
 
-## 📸 Screenshots
+--
 
-Below is an example of the Streamlit app in action:
+## 📸 Screenshots  
 
-![SMS Spam Classifier UI](Screenshot%202025-08-28%20211117.png)
+![App Screenshot](Screenshot%202025-08-28%20212232.png)
 
-### Feature Correlation Heatmap
-This heatmap shows the correlation between different features and the target label (`is_spam`).
 
-![Feature Correlation Heatmap](images/heatmap.png)
+---
 
+### 🔥 Feature Correlation Heatmap  
+This heatmap shows the correlation between different features and the target label (`is_spam`).  
+
+![Heatmap](Screenshot%202025-08-28%20213042.png)  
 
 ---
 
 ## 👨‍💻 Author
 **Kavin Kumar T**
-
 GitHub:  https://github.com/kavinkumartk
+
+---
