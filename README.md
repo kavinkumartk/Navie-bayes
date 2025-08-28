@@ -34,21 +34,16 @@ Clone the repository:
 
 git clone https://github.com/kavinkumartk/Navie-bayes
 
---
-
-## 📸 Screenshots  
-
-![App Screenshot](Screenshot%202025-08-28%20212232.png)
-
-
 ---
 
-### 🔥 Feature Correlation Heatmap  
-This heatmap shows the correlation between different features and the target label (`is_spam`).  
+## 📸 Screenshots
 
-![Heatmap](Screenshot%202025-08-28%20213042.png)  
+### Application Interface
+![App Screenshot](1917868e-9320-4a4d-854b-a0e509676e9c.png)
 
----
+### Heatmap Visualization
+![Heatmap](4ffa87db-0bf6-4cba-b1f6-ca3b9483a486.png)
+
 
 ## 👨‍💻 Author
 **Kavin Kumar T**
