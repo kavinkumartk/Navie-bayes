@@ -1,9 +1,10 @@
 import streamlit as st
 import pickle
+import pandas as pd
 
 
-with open("destree_model.sav", "rb") as f:
-    nb = pickle.load(f)
+with open("destree_model", "rb") as f:
+    model = pickle.load(f)
 
 st.title("📩 SMS Spam Classifier")
 st.write("Enter values to predict whether an SMS is **Spam (1)** or **Not Spam (0)**")
@@ -15,8 +16,15 @@ sms_length = st.number_input("SMS Length", min_value=1, max_value=1000, step=1)
 
 
 if st.button("Predict"):
-    new_sms = np.array([[word_freq_free, word_freq_win, word_freq_offer, sms_length]])
-    prediction = nb.predict(new_sms)[0]
+    
+    sample = pd.DataFrame(
+        [[word_freq_free, word_freq_win, word_freq_offer, sms_length]],
+        columns=["word_freq_free", "word_freq_win", "word_freq_offer", "sms_length"]
+    )
+    
+   
+    prediction = model.predict(sample)[0]
+    prob = model.predict_proba(sample)[0]
     
     if prediction == 1:
         st.error("🚨 This SMS is predicted as **Spam**!")
